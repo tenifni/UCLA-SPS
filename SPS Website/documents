@@ -1,0 +1,173 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/business-casual.css" rel="stylesheet">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+<!--Gist embed size-->
+    <style type="text/css">
+      .gist {width:600px !important;}
+      .gist-file
+      .gist-data {max-height: 400px; max-width: 600px;}
+    </style>
+
+    <title>Documents</title>
+</head>
+
+
+<body>
+<!--Main banner-->
+    <div class="brand">UCLA Society of Physics Students</div>
+    <div class="address-bar">The one and only undergrad physics club @ UCLA |<a href="https://www.facebook.com/groups/UCLA.SPS/"><font color = "#00bfFF">Facebook</font></a></div>
+
+    <!-- Navigation -->
+     <nav class="navbar navbar-default" role="navigation">
+        <div class="container"> <!--navi container-->
+
+            <!-- Groupping toggle & banner better for Mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">SPS</a> <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+
+             </div> <!--Mobile display-->
+
+            <!-- Collecting the nav links for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="updates.html">Updates</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="about.html">Gallary</a>
+                    </li>
+                    
+                    <li>
+                            <a href="officers.html">Officers</a>
+                            <ul class ="dropdown">
+                                <li><a href="officers.html">2016-2017</a></li>
+                                <li><a href="#">2015-2016</a></li>
+                                <li><a href="officers1415.html">2014-2015</a></li>
+                            </ul>
+                        </li>
+
+                    <li>
+                        <a href="documents.html">Documents</a>
+                    </li>
+                   
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div> <!--navi container-->
+     </nav>
+
+<!--Container -->
+<div class="container">
+ <div class="row">
+           < <div class="box">
+                <div class="col-lg-12">
+                
+                </div> 
+
+
+                <!--Documents-->
+
+                <center><h3 style ="font-family: arial; font-weight: 600px; color: #1266ed;">Arduino Land!</h3></center>
+                <div class="col-lg-12 text-center">
+                    <center>   
+                     <h3 style ="font-family: arial; font-weight: 500px;">[1] Arduino workshop introduction presentation: </h3><hr>
+                     <p><a href="https://docs.google.com/presentation/d/1udOEocPBiReJPP8tAp4i7jpXuCV3EVhqwsOPMkFx6Lc/edit?usp=sharing">Link to goole slide</a></p>
+                     <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQkhxoRqf-3NPTes7VyJFebopVW5KTNmsTZ63tkstFzjMchg2HOeTuZp-sYNArSgfGcvswRoZv6ihNP/embed?start=false&loop=false&delayms=5000" frameborder="0" width="560" height="369" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                   
+                </center>
+                </div>
+
+                
+                <div class="col-lg-12 text-center">
+                    <br><br><br>
+                    <center>   
+                     <h3 style ="font-family: arial; font-weight: 500px;">[2] Arduino Maze Runner code: </h3><hr>
+                     <p><a href="https://gist.github.com/tenifni/7b13d248b35ec2fe4eec9e9ed008daaa">Link to source code</a></p>
+                     <script src="https://gist.github.com/tenifni/7b13d248b35ec2fe4eec9e9ed008daaa.js"></script>
+                    
+                    <br><br><br>
+                </center>
+                </div>
+
+                 <center>
+                    
+                    <h3 style ="font-family: arial; font-weight: 600px; color: #ce295a;">Club Logistics!</h3></center>
+                <div class="col-lg-12 text-center">
+                    <center>   
+                     <br>
+                     <h3 style ="font-family: arial; font-weight: 500px;">SPS Constitution: <hr></h3>
+                     <p><a href="https://docs.google.com/document/d/e/2PACX-1vRlM0-6L56NpfMjl3jLJ7OE7wFvYsUl9hIe2k3NSn2WURC8jKwuRRBEg9zRHpTMv_kyQ5zpLYqbATE1/pub">Link to Goole doc</a></p>
+                    
+                     <iframe src="https://docs.google.com/document/d/e/2PACX-1vRlM0-6L56NpfMjl3jLJ7OE7wFvYsUl9hIe2k3NSn2WURC8jKwuRRBEg9zRHpTMv_kyQ5zpLYqbATE1/pub?embedded=true" width="760" height="369" ></iframe>
+                   
+                </center>
+                </div>
+
+
+                <div class="clearfix"></div>
+            </div>
+        
+        </div>
+</div>
+
+
+    <!-- /.container -->
+
+
+
+
+<footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p>&copy; UCLA-SPS 2016. Built with Bootstrap and <3 </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
+
+
+</body>
+</html>
+
+
