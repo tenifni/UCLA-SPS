@@ -98,8 +98,8 @@
                 <div class="col-lg-12 text-center">
                     <center>   
                      <h3 style ="font-family: arial; font-weight: 500px;">[1] Arduino workshop introduction presentation: </h3><hr>
-                     <p><a href="https://docs.google.com/presentation/d/1udOEocPBiReJPP8tAp4i7jpXuCV3EVhqwsOPMkFx6Lc/edit?usp=sharing">Link to goole slide</a></p>
-                     <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQkhxoRqf-3NPTes7VyJFebopVW5KTNmsTZ63tkstFzjMchg2HOeTuZp-sYNArSgfGcvswRoZv6ihNP/embed?start=false&loop=false&delayms=5000" frameborder="0" width="560" height="369" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                     <p><a href="https://docs.google.com/presentation/d/1udOEocPBiReJPP8tAp4i7jpXuCV3EVhqwsOPMkFx6Lc/edit?usp=sharing">Link to Google slide</a></p>
+                     <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQkhxoRqf-3NPTes7VyJFebopVW5KTNmsTZ63tkstFzjMchg2HOeTuZp-sYNArSgfGcvswRoZv6ihNP/embed?start=false&loop=false&delayms=5000" frameborder="0" width="560" height="375" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
                    
                 </center>
                 </div>
@@ -108,7 +108,7 @@
                 <div class="col-lg-12 text-center">
                     <br><br><br>
                     <center>   
-                     <h3 style ="font-family: arial; font-weight: 500px;">[2] Arduino Maze Runner code: </h3><hr>
+                     <h3 style ="font-family: arial; font-weight: 500px;">[2] Arduino Whack-A-Mole! code: </h3><hr>
                      <p><a href="https://gist.github.com/tenifni/7b13d248b35ec2fe4eec9e9ed008daaa">Link to source code</a></p>
                      <script src="https://gist.github.com/tenifni/7b13d248b35ec2fe4eec9e9ed008daaa.js"></script>
                     
