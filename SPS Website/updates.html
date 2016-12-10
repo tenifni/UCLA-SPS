@@ -12,7 +12,7 @@
         <link href="css/bootstrap.min.css" rel="stylesheet">
 
         <!-- Custom CSS -->
-        <link href="css/business-casual.css" rel="stylesheet">
+        <link href="css/theme.css" rel="stylesheet">
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
@@ -26,14 +26,16 @@
         <![endif]-->
 
         <title>Updates</title>
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
 
     </head>
 
 <body>
 
     <!--Main banner-->
-    <div class="brand">UCLA Society of Physics Students</div>
-    <div class="address-bar">The one and only undergrad physics club @ UCLA |<a href="https://www.facebook.com/groups/UCLA.SPS/"><font color = "#00bfFF">Facebook</font></a></div>
+
+    <div class="brand" style ="font-family: sans-serif; font-weight: 300px;"><img src="img/ucla2.jpg" style="width: 17%; height: 17%; opacity:0.92"> Society of Physics Students</div>
+    <div class="address-bar">Undergraduate physics club @ UCLA |<a href="https://www.facebook.com/groups/UCLA.SPS/"><font color = "#ffcc33"> Facebook</font></a>| <a href="https://twitter.com/uclasps/"><font color = "#ffcc33">Twitter</font></a></div>
 
     <!-- Navigation -->
      <nav class="navbar navbar-default" role="navigation">
@@ -78,6 +80,10 @@
 
                     <li>
                         <a href="documents.html">Documents</a>
+                        <ul class ="dropdown">
+                                <li><a href="arduino.html">•Arduino</a></li>
+                                <li><a href="logistics.html">•Logistics</a></li>
+                        </ul>
                     </li>
                    
                 </ul>
@@ -96,44 +102,54 @@
                 </div>
 
 
-        <!--tweets-->
+        <!--Embed tweets-->
         <div class="col-lg-12 text-center">
-        <a class="twitter-timeline" data-width="580" data-height="470" data-theme="light" data-link-color="#2B7BB9" href="https://twitter.com/uclasps">Live tweets by SPS</a> 
+        <a class="twitter-timeline" data-width="620" data-height="450" data-theme="light" data-link-color="#2B7BB9" href="https://twitter.com/uclasps">Live tweets by SPS</a> 
         <hr>
-    </div>
+  
 
         <!--/tweets-->
 
     <!--POSTS-->
                  <!--Post #?-->
+                <div class="box">
                  <div class="col-lg-12  text-center">  <!--text-center-->                
                     <h3 style ="font-family: arial; font-weight: 500px;">[SPS Fall Meeting] Week 9: Arduino Workshop Part 2
                         <br>
                         <small>Nov 23, 2016</small>
                     </h3>
+                    <br>
                     <p>Time to enter the labyrinth!</p>
                     <img src="img/ard13.jpg" alt="" style="width: 600px; height:460px;">
-                    <p style="margin-left:5em;" align="left">This week at Society of Physics Students, students got to program a robot to navigate some treacherous mazes! Students are encourgaed to compete with friends to see whose code brings their robot to the end first! Challenge modes available for those eager to test their coding skills to the limit! And Happy Thanksgiving everyone (fyi turkeys taste yummier when cooked by eletrocution)!</p>
+                    <br><br>
+                    <p style="margin-left:5em; text-align: left">This week at Society of Physics Students, students got to program a robot to navigate some treacherous mazes! Students are encourgaed to compete with friends to see whose code brings their robot to the end first! Challenge modes available for those eager to test their coding skills to the limit! <br>And Happy Thanksgiving everyone (fyi turkeys taste yummier when cooked by eletrocution) :> </p>
                     <hr>
                 </div>
+            </div>
                 <!--/Post #?-->
 
 
                 <!--Post #?-->
+            
+                <div class="box">
                  <div class="col-lg-12  text-center">  <!--text-center-->                
                     <h3 style ="font-family: arial; font-weight: 500px;">[SPS Fall Meeting] Week 7: Arduino Workshop Part 1
                         <br>
                         <small>Nov 15, 2016</small>
                     </h3>
+                    <br>
                     <p>Ever wanted to learn how to program a robot to navigate a maze?</p>
                     <img src="img/ard7.jpg" alt="" style="width: 600px; height:460px;">
+                    <br><br>
                     <p style="margin-left:5em;" align="left" >Now you can with Arduino, an open-source electronics platform that allows you to code commands to control motors, power LEDs, and more! This week, we went over the basics of Arduino hardware and how servo motors work, and we also showcased our Whack-a-Mole circuit game from last spring!<br>This is part 1 of our 2-part Arduino Workshop, to be continued in Week 9!</p>
                     <hr>
                 </div>
+            </div>
                 <!--/Post #?-->
 
 
                 <!--Post #?-->
+                <div class="box">
                 <div class="col-lg-12 text-center">  <!--text-center-->                
                     <h3 style ="font-family: arial; font-weight: 500px;">SPS Fall Meeing Week 3: Plasma Lab tour
                         <br>
@@ -141,14 +157,16 @@
                     </h3>
                     <p>Featuring the Large Plasma Device (LAPD)!</p>
                     <img src="img/plasma2.jpg" alt="" style="width: 600px; height:460px;">
-                    <p style="margin-left:5em;">This week SPS went to the Basic Plasma Science Facility in Westwood. Thanks Dr.Carter for the presenation and the lab tour!</p>
-                    <a href="#" class="btn btn-default btn-lg">Read More</a>
+                    <p style="margin-left:5em; text-align:left">This week SPS went to the Basic Plasma Science Facility in Westwood. Thanks Dr.Carter for the presenation and the lab tour!</p>
+                    <!--<a href="#" class="btn btn-default btn-lg">Read More</a>-->
                     <hr>
                 </div>
+            </div>
                 <!--/Post #?-->
 
 
                 <!--Post #?-->
+                <div class="box">
                 <div class="col-lg-12 text-center">  <!--text-center-->                
                     <h3 style ="font-family: arial; font-weight: 500px;">Start of Fall Quarter: EAF and URC Fairs
                         <br>
@@ -156,30 +174,37 @@
                     </h3>
                     <p>Enorumous Activities Fair and Undergrad Research Center (URC) Fair.</p>
                     <img src="img/urc1.jpg" alt="URC" style="width: 400px; height:410px;"><br><br>
-                    <img src="img/eaf1.jpg" alt="eaf" style="width: 440px; height:380px;">
+                    <img src="img/eaf1.jpg" alt="eaf" style="width: 440px; height:320px;">
                     <p style="margin-left:5em;" align="left"></p>
                     <!--<a href="#" class="btn btn-default btn-lg">Read More</a>-->
                     <hr>
                 </div>
+            </div>
                 <!--/Post #?-->
 
 
-                <div class="col-lg-12 text-center">
-                    <ul class="pager">
-                        <li class="previous"><a href="#">&larr; Older</a></li>
-                        <li class="next"><a href="#">Newer &rarr;</a></li>
-                    </ul>
-                </div>
+    <!--Older/Newer posts -->
+    <div class="col-lg-12 text-center">
+        <ul class="pager">
+            <li class="previous"><a href="1617updates.html">&larr; Older</a></li>
+            <li class="next"><a href="updates.html">Newer &rarr;</a></li>
+        </ul>
+    </div>
+
+
             </div>
         </div>
     </div>
     <!-- /.container -->
+</div>
+</div>
+</body>
 
 <footer>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <p>&copy; UCLA-SPS 2016. Built with Bootstrap and <3 </p>
+                    <p style="font-family:verdana; font-size:13px">&copy; UCLA-SPS 2016 </p>
                 </div>
             </div>
         </div>
@@ -191,7 +216,6 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
-</body>
 
 </html>
 
