@@ -16,7 +16,12 @@ Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https:/
 <html lang ="en">
 
 <head>
-        
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
      <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
@@ -24,19 +29,26 @@ Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https:/
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
-
-<!--font-awesome icons-->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        img {
+            max-width: 100%;
+            height: auto;
+            }
+    /* dropdown menu onclick -mobile friendly */
+            
+            
+        </style>
 
     <title>UCLA SPS</title>
    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
+
     </head>
 
 <body>
     
     <!--Main banner-->
-    <div class="brand" style ="font-family: sans-serif; font-weight: 300px;"><img src="img/ucla2.jpg" style="width: 17%; height: 17%; opacity:0.92"> Society of Physics Students</div>
+    <div class="brand" style ="font-family: sans-serif; font-weight;"><img src="img/ucla2.jpg" style="width: 17%; height: 17%; opacity:0.92"> Society of Physics Students</div>
     <div class="address-bar">Undergraduate physics club @ UCLA |<a href="https://www.facebook.com/groups/UCLA.SPS/"><font color = "#ffcc33"> Facebook</font></a>| <a href="https://twitter.com/uclasps/"><font color = "#ffcc33">Twitter</font></a></div> 
 
     <!-- Navigation -->
@@ -53,11 +65,11 @@ Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https:/
                 </button>
                 <a class="navbar-brand" href="index.html">SPS</a> <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
 
-             </div> <!--Mobile display-->
+             </div>
 
             <!-- Collecting the nav links for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav" >
                     <li>
                         <a href="index.html">Home</a>
                     </li>
@@ -72,8 +84,9 @@ Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https:/
                     </li>
 
                         <li>
-                            <a href="officers.html">Officers</a>
-                            <ul class ="dropdown">
+                            
+                            <a href="javascript:void(0)" data-toggle="dropdown">Officers<span class="caret"></span></a>
+                            <ul class ="dropdown-menu">
                                 <li><a href="officers.html">2016-2017</a></li>
                                 <li><a href="#">2015-2016</a></li>
                                 <li><a href="officers1415.html">2014-2015</a></li>
@@ -81,13 +94,13 @@ Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https:/
                         </li>
 
                     <li>
-                        <a href="documents.html">Documents</a>
-                        <ul class ="dropdown">
+                        <a href="javascript:void(0)" data-toggle="dropdown">Documents<span class="caret"></span></a>
+                        <ul class ="dropdown-menu">
                                 <li><a href="arduino.html">•Arduino</a></li>
                                 <li><a href="logistics.html">•Logistics</a></li>
-                            </ul>
+                        </ul>
                     </li>
-                   
+
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -150,7 +163,7 @@ Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https:/
                 <h2 class="intro-text text-center"><strong> Who are we?</strong></h2>
                 <hr>
                 <!--<img class="img-responsive img-border img-left" src="img/night.jpg" style="width: 260px; height:190px";>-->
-                <hr class="visible-xs">
+                
                 <p style="font-family:verdana; font-size:16px">UCLA's Society of Physics Students (SPS) is both an academic and social club where students from various disciplines who are interested in physics or physics-related activities come together to explore new things and have fun. </p>
             </div>
         </div>
@@ -180,8 +193,8 @@ Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https:/
                     <li><a href="https://www.facebook.com/groups/2200612983/"> &#x261E; SPS FB Group</a></li>
                     <li><a href="https://www.facebook.com/groups/175446515830777/">&#9832; UCLA Physics Study Group</a></li>
                     <li> <a href="http://www.pa.ucla.edu/">&#9883; UCLA Department of Physics and Astronomy</a></li>
-                    <li><a href="http://uas.physics.ucla.edu/">&#9734; Our sister club: UCLA Undergraduate Astronomical Society (UAS)</a></li>
-                    <li><a href="http://ugradwomen.pa.ucla.edu/">&#9880; Our sister club: UCLA Women in Physical Sciences (WPS)</a></li>
+                    <li><a href="http://uas.physics.ucla.edu/">&#9734; Sister club: UCLA Undergraduate Astronomical Society (UAS)</a></li>
+                    <li><a href="http://ugradwomen.pa.ucla.edu/">&#9880; Sister club: UCLA Women in Physical Sciences (WPS)</a></li>
                     <li><a href="http://ephysics.physics.ucla.edu/">&#9786; Cool Physics toys</a></li>
             </font>
             </p>
@@ -227,6 +240,29 @@ Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https:/
         interval: 5000 //changes the speed
     })
     </script>
+
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    for (var d = 0; d < dropdowns.length; d++) {
+      var openDropdown = dropdowns[d];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
 
  
 
